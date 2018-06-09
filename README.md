@@ -1,0 +1,1 @@
+# photo-gallery-img-template
