@@ -1,0 +1,18 @@
+#scroll {
+   width:95%;
+   height:180px;
+   margin:100px auto;
+   background:#f4f4f4;
+   border:1px solid #000;
+   overflow-y: hidden;
+   white-space:nowrap;
+   box-shadow:0 0 10px rgba(0, 0, 0, 0.422);
+   }
+   #scroll img {
+   margin:10px 5px 0 5px;
+   max-width:100%;
+   max-height:100%;
+   }
+   #scroll img:hover{
+      opacity: 0.8;
+   }
