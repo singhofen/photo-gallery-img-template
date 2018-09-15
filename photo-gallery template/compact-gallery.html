@@ -36,6 +36,9 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#fluid-gallery">Fluid Gallery</a>
                 </li>
                 <li class="nav-item">
@@ -53,27 +56,30 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#cssGrid">Image Grid</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                <button type="submit" class="text-white btn btn-primary" id="mailto">
+                    <a class="text-white" href="mailto:photographyStudios@yourStudioName.net?Subject=Photography%Appointments"
+                        target="_top">
+                        Direct Email <i class="text-white far fa-envelope"></i>
+                    </a>
+                </button>
             </ul>
         </div>
     </nav>
 
-    <!-- hero image  -->
+    <!-- optional hero image  -->
 
-    <div class="hero-image">
+<!--     <div class="hero-image">
         <img class="img-fluid" src="https://source.unsplash.com/1600x900/?profile,Photographer" alt="Photographer">
         <div class="hero-text">
             <p>Your Photography Studios</p>
-            <!-- mailto:  -->
+            <!-- mailto:
             <button id="mailto">
                 <a href="mailto:photographyStudios@yourStudioName.net?Subject=Photography%Appointments" target="_top">
                     < Appointments />
                 </a>
             </button>
         </div>
-    </div>
+    </div> -->
 
     <!-- COMPACT EASE IN-OUT GALLERY -->
     <a name="fluid-gallery"></a>
@@ -544,20 +550,50 @@
         </div>
     </div>
 
-    <!-- contact/email form submission  -->
+     <!-- contact/email form submission  -->
     <a name="contact"></a>
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Please enter your Email below</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="username@yourDomain.com">
-            <small id="emailHelp" class="form-text text-muted">All client information is strictly confidential.</small>
+    <div class="wrap">
+        <div class="container">
+            <form class="cool-b4-form">
+                <h2 class="text-center pt-4">Contact Us</h2>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" id="name">
+                            <label for="name">Name</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email">
+                            <label for="email">Email</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject">
+                            <label for="subject">Subject</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="8" class="form-control"></textarea>
+                            <label for="message">Message</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 mx-auto mt-3">
+                    <button type="submit" class="btn btn-lg btn-primary btn-block">Submit | <i class="text-white far fa-envelope"></i></button>
+                    <br>
+                  </button>
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="comment">Questions / Comments?</label>
-            <textarea class="form-control" rows="5" id="comment" placeholder="Additional Info"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">More Info Please!</button>
-    </form>
+    </div>
+
+   
 <!-- ABOUT ME SECTION -->
     <div class="about-page">
         <h2>About my Photography Journey</h2>
