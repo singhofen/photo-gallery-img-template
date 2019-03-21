@@ -164,7 +164,9 @@ h2{
   background-size: 10px 10px;
   width: 80%;
 }
-
+#about-me{
+  padding: 30px;
+}
 footer{
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -172,9 +174,22 @@ footer{
   padding-bottom: 20px;
 }
 
+/* BS4 carousel slider */
+.bs-slider{
+  max-height: calc(100vh - 71px);
+  overflow: hidden;
+}
+
 
 /* GRID GALLERY.CSS */
 
+#grid-pics{
+padding-left: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+padding-top: 4px;
+background: #ddd;
+}
 .gallery-block.grid-gallery{
   padding-bottom: 60px;
   padding-top: 60px;
