@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        < Chase Singhofen Studios />
+        < Fantastic Studios />
     </title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -56,12 +56,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#cssGrid">Image Grid</a>
                 </li>
-                <button type="submit" class="text-white btn btn-primary" id="mailto">
-                    <a class="text-white" href="mailto:photographyStudios@yourStudioName.net?Subject=Photography%Appointments"
-                        target="_top">
-                        Direct Email <i class="text-white far fa-envelope"></i>
-                    </a>
-                </button>
+                <li class="nav-item">
+                    <a class="nav-link" href="#horizontal-scrolling-footer">Horizontal Scrolling Footer</a>
+                </li>
+                
             </ul>
         </div>
     </nav>
@@ -72,7 +70,7 @@
         <img class="img-fluid" src="https://source.unsplash.com/1600x900/?profile,Photographer" alt="Photographer">
         <div class="hero-text">
             <p>Your Photography Studios</p>
-            <!-- mailto:
+            mailto:
             <button id="mailto">
                 <a href="mailto:photographyStudios@yourStudioName.net?Subject=Photography%Appointments" target="_top">
                     < Appointments />
@@ -320,7 +318,7 @@
 
             <!-- Grid GALLERY -->
             <a name="grid-gallery"></a>
-            <section class="gallery-block grid-gallery">
+            <section id="grid-padding" class="gallery-block grid-gallery">
                 <div class="container">
                     <div class="heading">
                         <h2>
@@ -328,48 +326,48 @@
                         </h2>
                         <hr class="hr">
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 item">
+                    <div  id="row-1" class="row">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/dock.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/dock.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/water.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/water.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/spance.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/spance.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div  id="grid-pics" class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/tree.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/tree.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/forest.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/forest.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
-                            <a class="lightbox" href="img/road.jpg">
-                                <img class="img-fluid image scale-on-hover" src="img/road.jpg">
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="img/lion.jpg">
+                                <img class="img-fluid image scale-on-hover" src="img/lion.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/guy.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/guy.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/nature.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/nature.jpg">
                             </a>
                         </div>
-                        <div class="col-md-6 col-lg-4 item">
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
                             <a class="lightbox" href="img/natur.jpg">
                                 <img class="img-fluid image scale-on-hover" src="img/natur.jpg">
                             </a>
@@ -404,31 +402,31 @@
         < Bootstrap 4 carousel slider />
     </h2>
     <!-- Bootstrap 4 carousel slider -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="img/dock.jpg" alt="First slide" height="600">
+                <img class=" bs-slider d-block w-100" src="img/dock.jpg" alt="Lake and dock for fishing"     height="">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 " src="img/forest.jpg" alt="Second slide" height="600">
+                <img class=" bs-slider d-block w-100 " src="img/forest.jpg" alt="forrest and moss" height="">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 " src="img/water.jpg" alt="Third slide">
+                <img class=" bs-slider d-block w-100 " src="img/water.jpg" alt="water picture">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 " src="img/lion.jpg" alt="Third slide">
+                <img class=" bs-slider d-block w-100 " src="img/lion.jpg" alt="roaring lion">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 " src="img/guy.jpg" alt="Third slide">
+                <img class=" bs-slider d-block w-100 " src="img/guy.jpg" alt="astronaut in space">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 " src="img/natur.jpg" alt="Third slide">
+                <img class=" bs-slider d-block w-100 " src="img/natur.jpg" alt="Nature">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 " src="img/nature.jpg" alt="Third slide">
+                <img class=" bs-slider d-block w-100 " src="img/nature.jpg" alt="nature">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/tree.jpg" alt="Third slide">
+                <img class=" bs-slider d-block w-100" src="img/tree.jpg" alt="tree and nature">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -549,50 +547,84 @@
             </p>
         </div>
     </div>
-
-     <!-- contact/email form submission  -->
+    <!-- contact/email form submission  -->
     <a name="contact"></a>
-    <div class="wrap">
+    <section class="contact-from pt-4">
         <div class="container">
-            <form class="cool-b4-form">
-                <h2 class="text-center pt-4">Contact Us</h2>
-                <div class="form-row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="name" id="name">
-                            <label for="name">Name</label>
-                            <span class="input-highlight"></span>
+                        <div class="row">
+                            <div class="col-md-6 mx-auto text-center">
+                                <h2>Contact us?</h2>
+                                <div class="divider bg-primary mx-auto"></div>
+                                <p class="text-muted lead">
+                                   We are looking forward to hear something from you!
+                                </p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email">
-                            <label for="email">Email</label>
-                            <span class="input-highlight"></span>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject">
-                            <label for="subject">Subject</label>
-                            <span class="input-highlight"></span>
+                        <div class="row mt-5">
+                            <div class="col-md-8 mx-auto">
+                                <form _lpchecked="1">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Your name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Your email address">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="tel" class="form-control" placeholder="Phone number">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="url" class="form-control" placeholder="Your website">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea rows="5" class="form-control" placeholder="What are you looking for?"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <button class="btn btn-primary">Send your quote</button>
+                                        <br><br>
+                                        <button type="submit" class="text-white btn btn-primary" id="mailto">
+                                            <a class="text-white" href="mailto:photographyStudios@yourStudioName.net?Subject=Photography%Appointments"
+                                                target="_top">
+                                                Direct Email <i class="text-white far fa-envelope"></i>
+                                            </a>
+                                        </button>
+                                    </div>
+                                    
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea name="message" id="message" rows="8" class="form-control"></textarea>
-                            <label for="message">Message</label>
-                            <span class="input-highlight"></span>
-                        </div>
-                    </div>
-                </div>
+          </div>
 
-
-                <div class="col-md-6 mx-auto mt-3">
-                    <button type="submit" class="btn btn-lg btn-primary btn-block">Submit | <i class="text-white far fa-envelope"></i></button>
-                    <br>
-                  </button>
-                </div>
-            </form>
+          <hr class="hr">
+        <!-- HORIZONTAL SCROLLING  -->
+        <a name="horizontal-scrolling-footer"></a>
+        <h2>
+            < Horizontal Scrolling />
+        </h2>
+        <div id="scroll">
+            <img src="img/lion.jpg">
+            <img src="img/forest.jpg">
+            <img src="img/dock.jpg">
+            <img src="img/natur.jpg">
+            <img src="img/nature.jpg">
+            <img src="img/road.jpg">
+            <img src="img/spance.jpg">
+            <img src="img/tree.jpg">
+            <img src="img/water.jpg">
+            <img src="img/guy.jpg">
         </div>
-    </div>
-
    
 <!-- ABOUT ME SECTION -->
     <div class="about-page">
@@ -600,10 +632,25 @@
         <p id="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cum alias laudantium officiis hic fuga laboriosam
             beatae aperiam distinctio dolores nesciunt excepturi molestiae labore porro maiores fugiat, aliquid natus quisquam.
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique harum minima commodi id dolorem, nulla possimus
-            accusamus tempora, provident expedita reiciendis est aperiam eos consequuntur tempore voluptatibus? Nihil, porro
-            molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi officia officiis nisi sed repudiandae voluptatem consequatur adipisci, eveniet blanditiis omnis iste dolorem incidunt ipsum exercitationem quod ratione, molestias sunt magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, assumenda pariatur hic, eligendi quae odio vel corrupti repudiandae doloribus doloremque veniam magni aut soluta! Eveniet iste temporibus eaque quae dicta.</p>
+             molestias sunt magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, assumenda pariatur hic, eligendi quae odio vel corrupti repudiandae doloribus doloremque veniam magni aut soluta! Eveniet iste temporibus eaque quae dicta.</p>
     </div>
-
+<!-- HORIZONTAL SCROLLING  -->
+<a name="horizontal-scrolling-footer"></a>
+<h2>
+    < Horizontal Scrolling />
+</h2>
+<div id="scroll">
+    <img src="img/lion.jpg">
+    <img src="img/forest.jpg">
+    <img src="img/dock.jpg">
+    <img src="img/natur.jpg">
+    <img src="img/nature.jpg">
+    <img src="img/road.jpg">
+    <img src="img/spance.jpg">
+    <img src="img/tree.jpg">
+    <img src="img/water.jpg">
+    <img src="img/guy.jpg">
+</div>
     <footer>
         &copy; MIT License Chase Singhofen 2018 Photo Gallery
         <a href="#top">Go to top</a>
