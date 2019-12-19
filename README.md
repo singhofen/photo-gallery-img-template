@@ -1,4 +1,8 @@
-# photo-gallery-img-template
+### photo-gallery-img-template
+
+12/19/2019:: added second optional template with LightBox feature for images. 
+
+
 
 Photo img gallery, bootstrap 4, fully responsive Includes contact form and mailto: links for sending emails. Template contains: grid, card, & fluid gallery's, horizontal img gallery, bootstrap 4 carousel, & img grid with img descriptions. includes css ease-in-out animations. Click on any photo in the grid, card, & fluid gallery's to view photos in a lightbox.  Navigate the template easy with the fixed navbar. No need for continuous scrolling to view sections of webpage. 
 
