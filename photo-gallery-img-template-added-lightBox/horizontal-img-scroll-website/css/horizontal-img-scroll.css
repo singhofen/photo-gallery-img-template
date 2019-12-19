@@ -1,0 +1,76 @@
+/* SPECIAL NOTES:: some images may not show if opened locally. html file must load on local dev server or live on the web */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: rgb(53, 52, 52);
+  line-height: 1.8;
+  background-color: #d6d2d2 !important;
+}
+.about-me-text{
+  color: black !important;
+  font-weight: bold;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image in header section (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/img/nyc-hero-img.jpg');
+  min-height: 100%;
+}
+
+
+/* background transparent color for text logo text  */
+#city-life{
+background-color: rgba(7, 7, 19, 0.658) !important;
+
+}
+
+/* Third image (ABOUT) */
+.bgimg-3 {
+  background-image: url("/img/nyc-water-view.jpg");
+  min-height: 200px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#icon-padding{
+  padding: 5px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+/* custom scrollbar */
+ /* width */
+ ::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(105, 105, 105); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 102, 255); 
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000cb3; 
+}
