@@ -1,6 +1,6 @@
 # photo-gallery-img-template
 
-Photo img gallery, bootstrap 4, fully responsive. Uses unsplash API to render random photos for hero section. Includes contact form and mailto: links for sending emails. Template contains: hero img, grid, card, & fluid gallery's, horizontal img gallery, bootstrap 4 carousel, & img grid with img descriptions. includes css ease-in-out animations. Click on any photo in the grid, card, & fluid gallery's to view photos in a lightbox.  Navigate the template easy with the fixed navbar. No need for continuous scrolling to view sections of webpage. 
+Photo img gallery, bootstrap 4, fully responsive Includes contact form and mailto: links for sending emails. Template contains: grid, card, & fluid gallery's, horizontal img gallery, bootstrap 4 carousel, & img grid with img descriptions. includes css ease-in-out animations. Click on any photo in the grid, card, & fluid gallery's to view photos in a lightbox.  Navigate the template easy with the fixed navbar. No need for continuous scrolling to view sections of webpage. 
 
 ![image](https://user-images.githubusercontent.com/23155302/41195274-0883bfca-6bf8-11e8-9c35-f7b4c5c642a4.png)
 
