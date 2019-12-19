@@ -1,7 +1,9 @@
 ### photo-gallery-img-template
 
-12/19/2019:: added second optional template with LightBox feature for images. 
+12/19/2019:: added second optional template (w3css responsive version) with LightBox feature for images. 
 
+<img width="958" alt="h-scroll-img" src="https://user-images.githubusercontent.com/23155302/71211750-c899cb00-227d-11ea-862c-e13935c91754.PNG">
+<img width="951" alt="h-scroll-img-lightbox" src="https://user-images.githubusercontent.com/23155302/71211754-c9caf800-227d-11ea-9412-f5d26552687c.PNG">
 
 
 Photo img gallery, bootstrap 4, fully responsive Includes contact form and mailto: links for sending emails. Template contains: grid, card, & fluid gallery's, horizontal img gallery, bootstrap 4 carousel, & img grid with img descriptions. includes css ease-in-out animations. Click on any photo in the grid, card, & fluid gallery's to view photos in a lightbox.  Navigate the template easy with the fixed navbar. No need for continuous scrolling to view sections of webpage. 
