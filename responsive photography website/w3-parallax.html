@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="css/w3-parallax.css" />
+    <link rel="stylesheet" href="css/horizontal.css" />
+
+    <title>photography Website | Responsive Theme</title>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-text-black" id="myNavbar">
+        <a
+          class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-hover-black w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-user"></i> ABOUT</a
+        >
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-th"></i> PORTFOLIO</a
+        >
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-envelope"></i> CONTACT</a
+        >
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"
+      >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >ABOUT</a
+        >
+        <a
+          href="#portfolio"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >PORTFOLIO</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <span
+          class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" id="city-life"
+          >WELCOME <span class="w3-hide-small">| EXPLORE</span></span
+        >
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center">ABOUT ME</h3>
+      <p class="w3-center"><em>I love photography</em></p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b
+              ><i class="fa fa-user w3-margin-right"></i>Jane Doe (That's
+              Me!)</b
+            >
+          </p>
+          <p>NYC Central Park!</p>
+          <img
+            src="img/bio.jpg"
+            class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+            alt="Photo of Me"
+            width="500"
+            height="333"
+          />
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>
+            Welcome to my website. I am lorem ipsum consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </div>
+      </div>
+      <p class="w3-large w3-center w3-padding-16">
+        My history within the industry
+      </p>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">75+</span><br />
+        Events
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">700+</span><br />
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">500+</span><br />
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br />
+        Awards
+      </div>
+    </div>
+    <div>
+      <!-- Second Parallax Image with Portfolio Text -->
+      <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+          <span
+            class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" id="city-life"
+            >CITY LIFE</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- horizontal scrolling  -->
+    <h3 class="w3-center">SCROLL THROUGH MY LATEST WORK</h3>
+    <div id="scroll">
+      <img
+        src="img/city-1.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-2.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-3.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-4.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-5.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/liberty-statue.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/bridge-brooklyn.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-1.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-2.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+      <img
+        src="img/city-3.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="NYC Photos"
+      />
+
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-display-topright" title="Close Modal Image"
+          ><i class="fas fa-times"></i> Close</span
+        >
+        <div
+          class="w3-modal-content w3-animate-opacity w3-center w3-transparent "
+        >
+          <img id="img01" class="w3-image" />
+          <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+      <h3 class="w3-center">MY WORK FROM 2017</h3>
+      <p class="w3-center">
+        <em
+          >Here are some of my latest lorem work ipsum tipsum.<br />
+          Click on the images to make them bigger</em
+        >
+      </p>
+      <br />
+
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img
+            src="img/city-1.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-text-white w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="img/city-2.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="img/city-3.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="img/city-4.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img
+            src="img/city-5.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="img/liberty-statue.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity w3-text-white"
+            alt="NYC Photos"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="img/cityscape-roads.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+        <div class="w3-col m3">
+          <img
+            src="img/bridge-brooklyn.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="NYC Photos"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <span class="w3-button w3-display-topright" title="Close Modal Image"
+        ><i class="fas fa-times"></i
+      ></span>
+      <div
+        class="w3-modal-content w3-animate-opacity w3-center w3-transparent "
+      >
+        <img id="img01" class="w3-image" />
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center">CITY LIGHTS PHOTOGRAPY</h3>
+      <p class="w3-center"><em><b>I'd love to be your next client!!</b> </em></p>
+
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <img
+            src="img/cityscape-roads.jpg"
+            alt="Nyc cityscape view on water"
+            class="w3-image w3-round"
+            style="width:100%"
+          />
+        </div>
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i
+              class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+            ></i>
+            New York City, New York, USA<br />
+            <i
+              class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+            ></i>
+            Phone: 123-456-7890<br />
+            <i
+              class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+            ></i>
+            jane-doe@mail.com<br />
+          </div>
+          <p>
+            Do you need a photographer? <i class="fas fa-camera-retro"></i>
+            <br />
+            Leave me a message below:
+          </p>
+          <form action="#home">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Name"
+                  required
+                  name="Name"
+                />
+              </div>
+              <div class="w3-half">
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Email"
+                  required
+                  name="Email"
+                />
+              </div>
+            </div>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+            <button class="w3-button w3-grey w3-right w3-section" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center">
+      <a href="#home" class="w3-button w3-grey"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>Let's go back up
+      </a>
+      <div class="w3-xlarge w3-section">
+        <i id="icon-padding" class="fab fa-facebook-f w3-text-blue w3-hover-opacity "></i>
+        <i id="icon-padding" class="fab fa-instagram w3-text-red w3-hover-opacity"></i>
+        <i id="icon-padding" class="fab fa-snapchat w3-text-yellow w3-hover-opacity "></i>
+        <i id="icon-padding" class="fab fa-pinterest-p w3-text-red w3-hover-opacity "></i>
+        <i  id="icon-padding"class="fab fa-twitter w3-text-blue w3-hover-opacity"></i>
+        <i id="icon-padding" class="fab fa-linkedin w3-text-indigo w3-hover-opacity"></i>
+      </div>
+      <p>
+        Parallax Theme &copy; 2019<a
+          href="#"
+          title="Parallax Theme website"
+          class="w3-hover-text-green"
+        >
+          MIT License</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+      // Change style of navbar on scroll
+      window.onscroll = function() {
+        myFunction();
+      };
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          navbar.className =
+            "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+          navbar.className = navbar.className.replace(
+            " w3-card w3-animate-top w3-white",
+            ""
+          );
+        }
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
