@@ -1,4 +1,7 @@
 ### photo-gallery-img-template
+12/26/2019:: uploaded second option for photography website
+
+![image](https://user-images.githubusercontent.com/23155302/71473177-04fc8800-27a4-11ea-80a5-eea1e01e4781.png)
 
 12/19/2019:: added second optional template (w3css responsive version) with LightBox feature for images. 
 
