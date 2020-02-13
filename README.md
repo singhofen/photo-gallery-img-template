@@ -1,4 +1,7 @@
 ### photo-gallery-img-template
+### https://it-services-web-dev.netlify.com/w3-parallax.html <br> 
+or <br>
+### https://chasesinghofen.github.io/chasesinghofen/compact-gallery.html
 12/26/2019:: uploaded second option for photography website
 
 ![image](https://user-images.githubusercontent.com/23155302/71473177-04fc8800-27a4-11ea-80a5-eea1e01e4781.png)
